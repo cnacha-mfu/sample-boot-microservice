@@ -41,8 +41,7 @@ public class Transaction {
 
     /** The id of a book that lives in library-book-service. */
     private Long bookId;
-
-    private String borrowerName;
+    private Long memberId;
 
     public Long getId() {
         return id;
@@ -76,11 +75,13 @@ public class Transaction {
         this.bookId = bookId;
     }
 
-    public String getBorrowerName() {
-        return borrowerName;
+    public Long getMemberId() {
+        return memberId;
     }
 
-    public void setBorrowerName(String borrowerName) {
-        this.borrowerName = borrowerName;
+    public void setMemberId(Long memberId) {
+        this.memberId = memberId;
     }
+
+   
 }

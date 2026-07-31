@@ -67,7 +67,7 @@ public class BookController {
 
         // TODO: (step 6) Return the real port instead of 0:
         //
-        //   return Integer.parseInt(environment.getProperty("server.port"));
+        return Integer.parseInt(environment.getProperty("server.port"));
         //
         // Then start book-service a second time on another port. Every call
         // through transaction-service will show one port or the other, and that
@@ -75,7 +75,5 @@ public class BookController {
         //
         // The load balancer works without this - but you cannot SEE it working,
         // and a lesson you cannot see is a lesson nobody believes.
-
-        return 0;
     }
 }

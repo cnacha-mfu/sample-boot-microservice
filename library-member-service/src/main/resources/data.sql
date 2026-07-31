@@ -1,0 +1,10 @@
+INSERT INTO member (id, name, email) VALUES (1, 'John Doe', 'john.doe@example.com');
+INSERT INTO member (id, name, email) VALUES (2, 'Jane Smith', 'jane.smith@example.com');
+INSERT INTO member (id, name, email) VALUES (3, 'Michael Johnson', 'michael.johnson@example.com');
+INSERT INTO member (id, name, email) VALUES (4, 'Emily Davis', 'emily.davis@example.com');
+INSERT INTO member (id, name, email) VALUES (5, 'David Wilson', 'david.wilson@example.com');
+INSERT INTO member (id, name, email) VALUES (6, 'Sarah Brown', 'sarah.brown@example.com');
+INSERT INTO member (id, name, email) VALUES (7, 'Daniel Miller', 'daniel.miller@example.com');
+INSERT INTO member (id, name, email) VALUES (8, 'Olivia Taylor', 'olivia.taylor@example.com');
+INSERT INTO member (id, name, email) VALUES (9, 'James Anderson', 'james.anderson@example.com');
+INSERT INTO member (id, name, email) VALUES (10, 'Sophia Thomas', 'sophia.thomas@example.com');

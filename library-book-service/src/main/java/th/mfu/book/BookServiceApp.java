@@ -2,6 +2,7 @@ package th.mfu.book;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 
 /**
  * book-service. Port 8090.
@@ -23,6 +24,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 //       That is the whole idea of a naming server: a service says "I am here and
 //       my name is X", so that nobody has to write down its address.
 @SpringBootApplication
+@EnableDiscoveryClient
 public class BookServiceApp {
 
     public static void main(String[] args) {

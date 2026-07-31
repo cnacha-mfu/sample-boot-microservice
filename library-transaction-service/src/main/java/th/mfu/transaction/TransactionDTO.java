@@ -14,6 +14,7 @@ public class TransactionDTO {
     private Long id;
     private String type;
     private Long bookId;
+    private Long memberId;
     private String borrowerName;
 
     /** Filled in from the answer of library-book-service. */
@@ -76,4 +77,14 @@ public class TransactionDTO {
     public void setServedBy(Integer servedBy) {
         this.servedBy = servedBy;
     }
+
+    public Long getMemberId() {
+        return memberId;
+    }
+
+    public void setMemberId(Long memberId) {
+        this.memberId = memberId;
+    }
+
+    
 }
